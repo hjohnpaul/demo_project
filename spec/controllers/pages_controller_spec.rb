@@ -16,7 +16,7 @@ integrate_views
     end
     it "should have right title" do
 	    get "home"
-	    response.should have_tag("title","Ruby on Rails Tutorial Sample App | Home")
+	    response.should have_tag("title","Home")
     end
   end
 
